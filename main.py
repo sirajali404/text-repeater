@@ -1,6 +1,18 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+st.markdown("""
+<style>
+#MainMenu {display:none;}
+footer {display:none;}
+header {display:none;}
+.stDeployButton {display:none;}
+[data-testid="stToolbar"] {display:none;}
+[data-testid="stDecoration"] {display:none;}
+.viewerBadge_container__1QSob {display:none;}
+</style>
+""", unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="Text Repeater | Beginner_Coder",
     page_icon="🔁",
